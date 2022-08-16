@@ -19,4 +19,4 @@ build:  check
 	poetry build
 test-coverage:
 	poetry run pytest --cov=page_loader --cov-report xml
-.PHONY: install test lint selfcheck check build gendiff test-detail gentest
+.PHONY: install test lint selfcheck check build test-detail page_loader
