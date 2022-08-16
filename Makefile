@@ -1,7 +1,7 @@
 install:
 	poetry install
-gendiff:
-	poetry run gendiff -h
+page_loader:
+	poetry run page_loader
 package-install:
 	python3 -m pip install --user dist/*.whl
 lint:
